@@ -1,0 +1,22 @@
+table.dataTable tr.dtrg-group td{
+	/* background-color:#ecf0f5 */
+	background-color:#cccccc;
+}
+table.dataTable tr.dtrg-group.dtrg-level-0 td{
+	background-color:#3c8dbc;
+	color: white;
+	font-weight:bold;
+}
+table.dataTable tr.dtrg-group.dtrg-level-1 td,table.dataTable tr.dtrg-group.dtrg-level-2 td{
+	color: #000000;
+	font-weight:bold;
+	padding-top:0.25em;
+	padding-bottom:0.25em;
+	padding-left:2em;
+}
+table.dataTable tr.dtrg-group.dtrg-level-2 td{
+	background-color:#b0d2e6
+}
+table.dataTable tr.odd td:first-child, table.dataTable tr.even td:first-child {
+    padding-left: 2em;
+}
